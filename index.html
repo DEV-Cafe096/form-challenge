@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Formulário</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Roboto:wght@100;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="info">
+            <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+            <p>Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em
+                menos de 24h.</p>
+        </div>
+
+        <form class="form">
+            <div class="margin">
+                <input class="text-input" placeholder="Nome completo *" type="text" id="nome">
+                <p>campo obrigatório</p>
+            </div>
+
+            <div class="margin">
+                <input class="text-input" placeholder="E-mail *" type="text" id="email">
+                <p>campo obrigatório</p>
+            </div>
+
+            <div class="margin">
+                <input class="text-input" placeholder="Telefone *" type="text" id="telefone">
+                <p>campo obrigatório</p>
+            </div>
+
+            <div class="margin">
+                <textarea class="text-input" placeholder="Mensagem *" name="Mensagem" id="mensagem" rows="5"></textarea>
+                <p>campo obrigatório</p>
+            </div>
+
+            <p>*campos obrigatórios</p>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </main>
+    <script src="src/index.js"></script>
+</body>
+
+</html>

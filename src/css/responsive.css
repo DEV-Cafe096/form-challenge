@@ -1,0 +1,50 @@
+@media(min-width: 1400px){
+    .form{
+        width: 400px;
+        padding: 30px;
+    }
+    .info{
+        width: 350px;
+        font-size: 20px;
+    }
+
+    .info h1{
+        font-size: 29px;
+    }
+}
+
+@media(max-width: 768px){
+    main{
+        flex-direction: column;
+    }
+
+    .info{
+        margin-bottom: 25px;
+    }
+
+    .form{
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 368px){
+    main{
+        padding: 20px 0;
+    }
+
+    .form{
+        width: 280px;
+    }
+
+    .info{
+        width: 230px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .info h1{
+        font-size: 18px;
+    }
+
+
+}
