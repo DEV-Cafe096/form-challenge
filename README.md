@@ -12,9 +12,9 @@ Este projeto demonstra um formulário interativo com validação básica, utiliz
 
                              **Visão do Projeto**
 
-    <img src="../src/images/visao-projeto.jpg">
+    <img src="./src/images/visao-projeto.jpg">
     <br>
-    <img src="../src/images/mobile-projeto.jpg">
+    <img src="./src/images/mobile-projeto.jpg">
     
 
 **Como Usar:**
@@ -44,6 +44,6 @@ Contribuições são bem-vindas! Você pode:
 
 **Divirta-se explorando este projeto!** 😄
 
-  <img src="../src/images/readme-name.gif">
+  <img src="./src/images/readme-name.gif">
 
 
